@@ -198,7 +198,7 @@ function loadManualEvents() {
     awayTeam: 'Ciryl Gane',
     awayLogo: 'https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/GANE_CIRYL_R_10-25.png?itok=-K434ntZ',
     date: 'Oct 25, 2025',
-    time: '4:00 AM ET',
+    time: '10:00 AM ET',
     location: 'Amway Center',
     status: 'upcoming',
     embedUrls: [
