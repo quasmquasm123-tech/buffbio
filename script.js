@@ -100,7 +100,7 @@ function loadManualEvents() {
     location: 'Amway Center',
     status: 'upcoming',
     embedUrls: [
-      'https://topembed.pw/channel/TNTSports4[UK]',
+      'https://topembed.pw/channel/exufc32ch11',
       'https://topembed.pw/channel/CosmoteSport8[Greece]'
     ]
   },  
