@@ -191,7 +191,7 @@ function loadManualEvents() {
   },
 {
     id: 'mma_1',
-    league: 'NBA',
+    league: 'MMA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-mma.png&w=64&h=64&scale=crop&cquality=40&location=origin',
     homeTeam: 'Tom Aspinall',
     homeLogo: 'https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ASPINALL_TOM_L_BELT_10-25.png?itok=taePyxPV',
