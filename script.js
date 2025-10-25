@@ -100,8 +100,8 @@ function loadManualEvents() {
     location: 'Amway Center',
     status: 'upcoming',
     embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=401',
-      'https://lotusgamehd.xyz/lotushd.php?hd=402'
+      'https://topembed.pw/channel/TNTSports4[UK]',
+      'https://topembed.pw/channel/CosmoteSport8[Greece]'
     ]
   },  
     
