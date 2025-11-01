@@ -108,8 +108,8 @@ function loadManualEvents() {
     'https://topembed.pw/channel/ex8849541'
   ]
 },
-[
-  {
+
+{
     id: 'nba_1',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
