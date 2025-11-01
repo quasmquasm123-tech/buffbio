@@ -225,10 +225,7 @@ function loadManualEvents() {
       'https://topembed.pw/channel/SkySportsMainEvent[UK]'
     ]
   },
-]
 
-  
-      
 
   ];
 
