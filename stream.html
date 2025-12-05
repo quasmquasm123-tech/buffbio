@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Stream - SportStreams</title>
+    <title>Live Stream - MethStreams</title>
     <style>
         * {
             margin: 0;
@@ -388,7 +388,7 @@
 <body>
     <div class="stream-container">
         <div class="header">
-            <h1 id="page-title">Live Stream - SportStreams</h1>
+            <h1 id="page-title">Live Stream - MethStreams</h1>
         </div>
 
         <a href="index.html" class="back-btn">← Back to All Streams</a>
@@ -397,30 +397,21 @@
         <div class="ad-space">
             <span class="ad-label">Advertisement</span>
             <div class="ad-banner" onclick="openAdLink('banner_top')">
-                <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-                <div>
-                    <script type="text/javascript">
-                        aclib.runBanner({
-                            zoneId: '10674810',
-                        });
-                    </script>
-                </div>
+                <a href="https://aviatorreproducesauciness.com/2093110/" target="_blank"
+                    rel="noopener noreferrer nofollow">
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=728&h=90&q=80"
+                        width="728" height="90" alt="Watch Free Live Sports" style="border:0;display:block;">
+                </a>
 
             </div>
+
         </div>
 
         <!-- Channel Selector -->
         <div class="channel-selector">
             <h3>Select Stream Channel</h3>
             <div class="channel-buttons" id="channel-buttons">
-                <button class="channel-btn active" data-embed="https://lotusgamehd.xyz/lotushd.php?hd=246">Channel 1
-                    (HD)</button>
-                <button class="channel-btn" data-embed="https://lotusgamehd.xyz/lotushd.php?hd=247">Channel 2
-                    (Backup)</button>
-                <button class="channel-btn" data-embed="https://lotusgamehd.xyz/lotushd.php?hd=248">Channel 3
-                    (Mobile)</button>
-                <button class="channel-btn" data-embed="https://lotusgamehd.xyz/lotushd.php?hd=249">Channel 4
-                    (Premium)</button>
+                <!-- Channels will be loaded dynamically -->
             </div>
         </div>
 
@@ -428,9 +419,13 @@
             <!-- Left Sidebar Ads -->
             <div class="ad-sidebar">
                 <div class="ad-label" style="margin-bottom: 0.5rem;">Sponsored</div>
-                <div class="ad-sidebar-item" onclick="openAdLink('sidebar_1')">
 
+                <div class="" onclick="openAdLink('sidebar_1')">
+                </div>
 
+                <div class="" onclick="openAdLink('sidebar_2')">
+                </div>
+                <div class="" onclick="openAdLink('sidebar_3')">
                 </div>
             </div>
 
@@ -450,104 +445,95 @@
 
         <!-- Middle Ad Square -->
         <div class="ad-space">
-            <span class="ad-label"></span>
+            <span class="ad-label">Featured Partner</span>
             <div class="ad-square" onclick="openAdLink('square_middle')">
                 <div style="text-align: center;">
                     <div style="font-size: 1.2rem; margin-bottom: 0.5rem;">
-                        <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-                        <div>
-                            <script type="text/javascript">
-                                aclib.runBanner({
-                                    zoneId: '10674834',
-                                });
-                            </script>
-                        </div>
+                        <a href="https://aviatorreproducesauciness.com/2093110/" target="_blank"
+                            rel="noopener noreferrer nofollow">
+                            <img src="https://sdmntprseasia.oaiusercontent.com/files/00000000-52a4-7207-98d7-390dbefcecaf/raw?se=2025-12-05T16%3A28%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=469df2e0-c061-4687-ad9d-478d7058b4b2&skoid=8cb40e9f-389f-4cf6-afaa-e5bd4c7fd98c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-05T02%3A51%3A11Z&ske=2025-12-06T02%3A51%3A11Z&sks=b&skv=2024-08-04&sig=UrdMlScAg1LPyPAOnbACyWR1hjA1DWcLXDlgBXp%2Bx6I%3D"
+                                width="300" height="250" alt="Watch Free Live Sports" style="border:0;display:block;">
+                        </a>
 
                     </div>
+
                 </div>
+                <div style="font-size: 0.9rem;"></div>
+                <div style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--gray);"></div>
             </div>
         </div>
+    </div>
 
-        <div class="stream-info">
-            <h2 id="event-title">Live Sports Event</h2>
-            <div class="stream-meta">
-                <div class="meta-item">
-                    <div class="meta-label">League</div>
-                    <div class="meta-value" id="event-league">Multiple Sports</div>
-                </div>
-                <div class="meta-item">
-                    <div class="meta-label">Status</div>
-                    <div class="meta-value" id="event-status">CONNECTING</div>
-                </div>
-                <div class="meta-item">
-                    <div class="meta-label">Quality</div>
-                    <div class="meta-value" id="event-quality">HD</div>
-                </div>
-                <div class="meta-item">
-                    <div class="meta-label">Channel</div>
-                    <div class="meta-value" id="event-channel">Channel 1</div>
-                </div>
+    <div class="stream-info">
+        <h2 id="event-title">Live Sports Event</h2>
+        <div class="stream-meta">
+            <div class="meta-item">
+                <div class="meta-label">League</div>
+                <div class="meta-value" id="event-league">Multiple Sports</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Status</div>
+                <div class="meta-value" id="event-status">CONNECTING</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Quality</div>
+                <div class="meta-value" id="event-quality">HD</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Channel</div>
+                <div class="meta-value" id="event-channel">Channel 1</div>
             </div>
         </div>
+    </div>
 
-        <!-- Bottom Ad Banner -->
-        <div class="ad-space">
-            <span class="ad-label">Advertisement</span>
-            <div class="ad-banner" onclick="openAdLink('banner_bottom')">
-                <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-                <div>
-                    <script type="text/javascript">
-                        aclib.runBanner({
-                            zoneId: '10674814',
-                        });
-                    </script>
-                </div>
+    <!-- Bottom Ad Banner -->
+    <div class="ad-space">
+        <span class="ad-label">Advertisement</span>
 
+    </div>
+    </div>
+
+    <!-- MethStreams Articles Section -->
+    <div class="articles-section">
+        <h2 style="color: var(--primary); margin-bottom: 1rem;">MethStreams Sports Guides</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <h3>How to Watch NFL on MethStreams</h3>
+                <p>Complete guide to streaming NFL games live on MethStreams. Watch all Sunday games, Monday Night
+                    Football, and Super Bowl for free.</p>
+            </div>
+            <div class="article-card">
+                <h3>NBA Streaming Guide 2024</h3>
+                <p>Watch every NBA game live - regular season, playoffs, and finals. HD quality streams with
+                    multiple channel options.</p>
+            </div>
+            <div class="article-card">
+                <h3>MLB Live Streams Free</h3>
+                <p>Never miss a pitch with MethStreams MLB coverage. All teams, all games, completely free
+                    streaming.</p>
+            </div>
+            <div class="article-card">
+                <h3>Premier League Football</h3>
+                <p>Watch Manchester United, Liverpool, Arsenal and all Premier League matches live in HD quality.
+                </p>
             </div>
         </div>
-
-        <!-- SportStreams Articles Section -->
-        <div class="articles-section">
-            <h2 style="color: var(--primary); margin-bottom: 1rem;">SportStreams Sports Guides</h2>
-            <div class="articles-grid">
-                <div class="article-card">
-                    <h3>How to Watch NFL on SportStreams</h3>
-                    <p>Complete guide to streaming NFL games live on SportStreams. Watch all Sunday games, Monday Night
-                        Football, and Super Bowl for free.</p>
-                </div>
-                <div class="article-card">
-                    <h3>NBA Streaming Guide 2024</h3>
-                    <p>Watch every NBA game live - regular season, playoffs, and finals. HD quality streams with
-                        multiple channel options.</p>
-                </div>
-                <div class="article-card">
-                    <h3>MLB Live Streams Free</h3>
-                    <p>Never miss a pitch with SportStreams MLB coverage. All teams, all games, completely free
-                        streaming.</p>
-                </div>
-                <div class="article-card">
-                    <h3>Premier League Football</h3>
-                    <p>Watch Manchester United, Liverpool, Arsenal and all Premier League matches live in HD quality.
-                    </p>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 
     <script>
         // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
-        const eventId = urlParams.get('id');
-        const embedUrl = urlParams.get('embed');
+        const channelsParam = urlParams.get('channels');
         const league = urlParams.get('league');
         const title = urlParams.get('title');
 
         // Default channels if no specific embed URL provided
         const defaultChannels = [
-            { name: 'Channel 1 (HD)', url: 'https://topembed.pw/channel/exufc32ch11' },
-            { name: 'Channel 2 (Backup)', url: 'https://topembed.pw/channel/ex8327003' },
-            { name: 'Channel 3 (Mobile)', url: 'https://topembed.pw/channel/ex8679848' },
-            { name: 'Channel 4 (Premium)', url: 'https://topembed.pw/channel/ex8679848' }
+            { name: 'Channel 1 (HD)', url: 'https://lotusgamehd.xyz/lotushd.php?hd=246' },
+            { name: 'Channel 2 (Backup)', url: 'https://lotusgamehd.xyz/lotushd.php?hd=247' },
+            { name: 'Channel 3 (Mobile)', url: 'https://lotusgamehd.xyz/lotushd.php?hd=248' },
+            { name: 'Channel 4 (Premium)', url: 'https://lotusgamehd.xyz/lotushd.php?hd=249' }
         ];
 
         // Ad click handler
@@ -566,10 +552,54 @@
             console.log('🤑 Ad clicked:', adType);
         }
 
-        // Set event info from URL parameters
+        // Update Channel Selector based on Event
+        function updateChannelSelector(channelData) {
+            const channelButtons = document.getElementById('channel-buttons');
+            channelButtons.innerHTML = '';
+
+            if (channelData && channelData.embedUrls && channelData.channelNames) {
+                channelData.embedUrls.forEach((url, index) => {
+                    const button = document.createElement('button');
+                    button.className = `channel-btn ${index === 0 ? 'active' : ''}`;
+                    button.setAttribute('data-embed', url);
+                    button.textContent = channelData.channelNames[index] || `Channel ${index + 1}`;
+
+                    button.addEventListener('click', function () {
+                        document.querySelectorAll('.channel-btn').forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                        loadStream(url, this.textContent);
+                    });
+
+                    channelButtons.appendChild(button);
+                });
+            } else {
+                // Default channels if no specific data
+                defaultChannels.forEach((channel, index) => {
+                    const button = document.createElement('button');
+                    button.className = `channel-btn ${index === 0 ? 'active' : ''}`;
+                    button.setAttribute('data-embed', channel.url);
+                    button.textContent = channel.name;
+
+                    button.addEventListener('click', function () {
+                        document.querySelectorAll('.channel-btn').forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                        loadStream(channel.url, this.textContent);
+                    });
+
+                    channelButtons.appendChild(button);
+                });
+            }
+        }
+
+        // Initialize Page with Event Channels
         function initializePage() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const channelsParam = urlParams.get('channels');
+            const title = urlParams.get('title');
+            const league = urlParams.get('league');
+
             if (title) {
-                document.getElementById('page-title').textContent = title + ' - SportStreams';
+                document.getElementById('page-title').textContent = title + ' - MethStreams';
                 document.getElementById('event-title').textContent = title;
             }
 
@@ -577,55 +607,45 @@
                 document.getElementById('event-league').textContent = league;
             }
 
+            // Parse channel data
+            let channelData = null;
+            if (channelsParam) {
+                try {
+                    channelData = JSON.parse(decodeURIComponent(channelsParam));
+                } catch (e) {
+                    console.error('Error parsing channel data:', e);
+                }
+            }
+
+            // Update channel selector
+            updateChannelSelector(channelData);
+
             // Update status to LIVE
             const statusElement = document.getElementById('event-status');
             statusElement.textContent = 'LIVE';
             statusElement.style.color = '#00ff00';
 
-            // Auto-load stream immediately
-            autoLoadStream();
+            // Auto-load stream
+            autoLoadStream(channelData);
         }
 
-        // Auto-load stream function
-        function autoLoadStream() {
+        // Auto-load stream with event channels
+        function autoLoadStream(channelData) {
             let streamToLoad = '';
             let channelName = 'Channel 1';
 
-            // Priority 1: Use embed URL from parameters
-            if (embedUrl) {
-                streamToLoad = embedUrl;
-                channelName = 'Auto Channel';
-            }
-            // Priority 2: Use first default channel
-            else {
+            if (channelData && channelData.embedUrls && channelData.embedUrls.length > 0) {
+                streamToLoad = channelData.embedUrls[0];
+                channelName = channelData.channelNames[0] || 'Channel 1';
+            } else {
+                // Default fallback
                 streamToLoad = defaultChannels[0].url;
                 channelName = defaultChannels[0].name;
             }
 
-            // Update channel display
             document.getElementById('event-channel').textContent = channelName;
-
-            // Load the stream
             loadStream(streamToLoad, channelName);
         }
-
-        // Channel selector functionality
-        const channelButtons = document.querySelectorAll('.channel-btn');
-        let currentChannel = '';
-
-        channelButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove active class from all buttons
-                channelButtons.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
-                button.classList.add('active');
-
-                const embedUrl = button.getAttribute('data-embed');
-                const channelName = button.textContent;
-
-                loadStream(embedUrl, channelName);
-            });
-        });
 
         // Load Stream Function
         function loadStream(embedUrl, channelName) {
@@ -639,7 +659,6 @@
                 statusElement.textContent = 'LOADING';
                 statusElement.style.color = '#ffa726';
                 channelElement.textContent = channelName;
-                currentChannel = channelName;
 
                 // Update loading message
                 if (placeholder) {
@@ -714,8 +733,8 @@
                     <p>${message}</p>
                     <p style="margin-top:20px;color:#ff6b35;">Please try another channel</p>
                     <div class="channel-buttons" style="margin-top: 20px;">
-                        <button class="channel-btn" onclick="loadStream('https://topembed.pw/channel/exaspinal', 'Channel 1')">Try Channel 1</button>
-                        <button class="channel-btn" onclick="loadStream('https://topembed.pw/channel/TNTSports4[UK]', 'Channel 2')">Try Channel 2</button>
+                        <button class="channel-btn" onclick="loadStream('https://lotusgamehd.xyz/lotushd.php?hd=246', 'Channel 1')">Try Channel 1</button>
+                        <button class="channel-btn" onclick="loadStream('https://lotusgamehd.xyz/lotushd.php?hd=247', 'Channel 2')">Try Channel 2</button>
                     </div>
                 </div>
             `;
@@ -727,18 +746,19 @@
         // Add keyboard shortcuts for quick channel switching
         document.addEventListener('keydown', (e) => {
             if (e.altKey) {
+                const channelButtons = document.querySelectorAll('.channel-btn');
                 switch (e.key) {
                     case '1':
-                        channelButtons[0].click();
+                        if (channelButtons[0]) channelButtons[0].click();
                         break;
                     case '2':
-                        channelButtons[1].click();
+                        if (channelButtons[1]) channelButtons[1].click();
                         break;
                     case '3':
-                        channelButtons[2].click();
+                        if (channelButtons[2]) channelButtons[2].click();
                         break;
                     case '4':
-                        channelButtons[3].click();
+                        if (channelButtons[3]) channelButtons[3].click();
                         break;
                 }
             }
